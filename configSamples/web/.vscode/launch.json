@@ -9,7 +9,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/mySolutionOne.Api/bin/Debug/netcoreapp2.2/mySolutionOne.Api.dll",
+            "program": "${workspaceFolder}/<myProjectName>/bin/Debug/netcoreapp2.2/<myProjectName>.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,
