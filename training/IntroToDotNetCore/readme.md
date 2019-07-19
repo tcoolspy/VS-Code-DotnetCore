@@ -1,0 +1,1 @@
+#### The goal of this training class is produce a fully functioning application and to teach C# and the .NET framework along the way.  By the end of the course, there should be a solid understanding of how to create .NET projects, solutions, APIs and more.  Also, basic, intermediate, and (maybe) some advanced C# topics will be covered.
