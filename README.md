@@ -8,4 +8,4 @@ The configSamples directory gives sample launch.json and tasks.json files in the
 
 #### Links
 
-How YOU can get started with .NET Core and C# in VS Code <https://dev.to/azure/how-you-can-get-started-with-net-core-and-c-in-vs-code-30gc>
+* How YOU can get started with .NET Core and C# in VS Code <https://dev.to/azure/how-you-can-get-started-with-net-core-and-c-in-vs-code-30gc>
