@@ -1,0 +1,9 @@
+/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Core/bin/Debug/netstandard2.0/mySolutionOne.Core.deps.json
+/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Core/bin/Debug/netstandard2.0/mySolutionOne.Core.dll
+/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Core/bin/Debug/netstandard2.0/mySolutionOne.Core.pdb
+/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Core/obj/Debug/netstandard2.0/mySolutionOne.Core.csprojAssemblyReference.cache
+/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Core/obj/Debug/netstandard2.0/mySolutionOne.Core.csproj.CoreCompileInputs.cache
+/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Core/obj/Debug/netstandard2.0/mySolutionOne.Core.AssemblyInfoInputs.cache
+/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Core/obj/Debug/netstandard2.0/mySolutionOne.Core.AssemblyInfo.cs
+/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Core/obj/Debug/netstandard2.0/mySolutionOne.Core.dll
+/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Core/obj/Debug/netstandard2.0/mySolutionOne.Core.pdb
