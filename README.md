@@ -1,2 +1,2 @@
 # VS Code and Dotnet Core
-Using VS Code for .NET Core Development Tips
+Using VS Code for .NET Core Development
