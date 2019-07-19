@@ -9,6 +9,7 @@ project.lock.json
 *.user
 *.userosscache
 *.sln.docstates
+*.cache
 
 # Build results
 [Dd]ebug/
@@ -24,3 +25,6 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
+
+obj/
+bin/
