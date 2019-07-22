@@ -16,8 +16,7 @@ namespace mySolutionOne.Api.Controllers
         {
             _studentContext = studentContext ?? throw new ArgumentNullException("studentContext");
         }
-
-
+        
         [HttpGet]
         [Route("api/student/{id}")]
         public IActionResult Get(string id)

@@ -23,10 +23,8 @@ namespace mySolutionOne.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {            
-            //services.AddDbContext<StudentContext>();
             //TODO: put this in a config file
             var contextRoot = GetApplicationRoot();
-            //services.AddDbContext<StudentContext>(options => options.UseSqlite("Data Source=students.db"));
             services.AddDbContext<StudentContext>(options => options.UseSqlite($"Filename={contextRoot}students.db"));
 
             services.AddSwaggerGen(c => {
@@ -49,24 +47,26 @@ namespace mySolutionOne.Api
                 app.UseHsts();
             }
 
+            // add cors support
+            app.UseCors(options => {
+                options
+                    .AllowAnyHeader()
+                    .AllowAnyMethod()
+                    .AllowAnyOrigin();
+            });
+
             app.UseSwagger();
             app.UseSwaggerUI(c => {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Training API");
                 c.RoutePrefix = string.Empty;
             });
 
-            // DefaultFilesOptions defaultFile = new DefaultFilesOptions();
-            // defaultFile.DefaultFileNames.Clear();
-            // defaultFile.DefaultFileNames.Add("index.html");
-            
-            // app.UseDefaultFiles(defaultFile);
-            // app.UseStaticFiles();
-
             app.UseHttpsRedirection();
             app.UseMvc();
         }
 
 
+        // TODO: this method needs to be put into a static class or converted into an extension method.
         public string GetApplicationRoot()
         {
             var path = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);

@@ -18,6 +18,7 @@ namespace mySolutionOne.Api.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
+                // TODO: file reference needs to be updated.
                 optionsBuilder.UseSqlite("Data Source=students.db");
             }            
         }
