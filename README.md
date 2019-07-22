@@ -1,4 +1,4 @@
-# VS Code and Dotnet Core
+# Learning C#/.NET with VS Code
 Using VS Code for .NET Core Development
 
 Visual Studio Code is a great code editor, but getting the most out of it when doing .NET Core development can sometimes be a challenge.  Hopefully this repo will give you a bit of a head start to make .NET coding in VS Code, easier.
