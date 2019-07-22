@@ -12600,11 +12600,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Api/mySolutionOne.Api.csproj",
+      "projectUniqueName": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part1/mySolutionOne.Api/mySolutionOne.Api.csproj",
       "projectName": "mySolutionOne.Api",
-      "projectPath": "/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Api/mySolutionOne.Api.csproj",
+      "projectPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part1/mySolutionOne.Api/mySolutionOne.Api.csproj",
       "packagesPath": "/Users/rc18285/.nuget/packages/",
-      "outputPath": "/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Api/obj/",
+      "outputPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part1/mySolutionOne.Api/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -12621,11 +12621,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Core/mySolutionOne.Core.csproj": {
-              "projectPath": "/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Core/mySolutionOne.Core.csproj"
+            "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part1/mySolutionOne.Core/mySolutionOne.Core.csproj": {
+              "projectPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part1/mySolutionOne.Core/mySolutionOne.Core.csproj"
             },
-            "/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Data/mySolutionOne.Data.csproj": {
-              "projectPath": "/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Data/mySolutionOne.Data.csproj"
+            "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part1/mySolutionOne.Data/mySolutionOne.Data.csproj": {
+              "projectPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part1/mySolutionOne.Data/mySolutionOne.Data.csproj"
             }
           }
         }

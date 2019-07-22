@@ -3512,11 +3512,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Data/mySolutionOne.Data.csproj",
+      "projectUniqueName": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part1/mySolutionOne.Data/mySolutionOne.Data.csproj",
       "projectName": "mySolutionOne.Data",
-      "projectPath": "/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Data/mySolutionOne.Data.csproj",
+      "projectPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part1/mySolutionOne.Data/mySolutionOne.Data.csproj",
       "packagesPath": "/Users/rc18285/.nuget/packages/",
-      "outputPath": "/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Data/obj/",
+      "outputPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part1/mySolutionOne.Data/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -3533,8 +3533,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Core/mySolutionOne.Core.csproj": {
-              "projectPath": "/Users/rc18285/source/testRepos/dotnet/mySolutionOne/mySolutionOne.Core/mySolutionOne.Core.csproj"
+            "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part1/mySolutionOne.Core/mySolutionOne.Core.csproj": {
+              "projectPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part1/mySolutionOne.Core/mySolutionOne.Core.csproj"
             }
           }
         }
