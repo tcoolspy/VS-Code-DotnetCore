@@ -1,15 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using dotnetPartTwo.Api.Data;
+using dotnetPartTwo.Api.Helpers;
+using dotnetPartTwo.Business.Contracts;
+using dotnetPartTwo.Business.Services;
+using dotnetPartTwo.Core.Contracts;
+using dotnetPartTwo.Core.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.OpenApi.Models;
 
 namespace dotnetPartTwo.Api
 {
@@ -25,6 +34,22 @@ namespace dotnetPartTwo.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // repositories
+            services.AddScoped<IGenericRepository<Course, Guid>, GenericRepository<Course, Guid>>();
+            services.AddScoped<IGenericRepository<Student, Guid>, GenericRepository<Student, Guid>>();
+
+            // business services
+            services.AddScoped<IGenericBusinessService<Student, Guid>, GenericBusinessService<Student, Guid>>();
+
+            services.AddScoped<IStudentService, StudentService>();
+
+            var contextRoot = DirectoryHelpers.GetApplicationRoot();
+            services.AddDbContext<SchoolContext>(options => options.UseSqlite($"Filename={contextRoot}School.db"));            
+
+            services.AddSwaggerGen(c => {
+                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Training API", Version = "v1" });
+            });            
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -41,8 +66,23 @@ namespace dotnetPartTwo.Api
                 app.UseHsts();
             }
 
+            // add cors support
+            app.UseCors(options => {
+                options
+                    .AllowAnyHeader()
+                    .AllowAnyMethod()
+                    .AllowAnyOrigin();
+            });
+
+            // swagger
+            app.UseSwagger();
+            app.UseSwaggerUI(c => {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Training API");
+                c.RoutePrefix = string.Empty;
+            });            
+
             app.UseHttpsRedirection();
             app.UseMvc();
-        }
+        }        
     }
 }
