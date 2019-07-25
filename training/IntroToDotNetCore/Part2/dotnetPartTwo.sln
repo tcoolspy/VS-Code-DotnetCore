@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetPartTwo.Data", "dotne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetPartTwo.Api", "dotnetPartTwo.Api\dotnetPartTwo.Api.csproj", "{B7E7C182-C1EA-4883-9821-DED07AB79FE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetPartTwo.Business", "dotnetPartTwo.Business\dotnetPartTwo.Business.csproj", "{4711998A-4CF2-4CF2-A6DF-F40BD250731F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{B7E7C182-C1EA-4883-9821-DED07AB79FE2}.Release|x64.Build.0 = Release|Any CPU
 		{B7E7C182-C1EA-4883-9821-DED07AB79FE2}.Release|x86.ActiveCfg = Release|Any CPU
 		{B7E7C182-C1EA-4883-9821-DED07AB79FE2}.Release|x86.Build.0 = Release|Any CPU
+		{4711998A-4CF2-4CF2-A6DF-F40BD250731F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4711998A-4CF2-4CF2-A6DF-F40BD250731F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4711998A-4CF2-4CF2-A6DF-F40BD250731F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4711998A-4CF2-4CF2-A6DF-F40BD250731F}.Debug|x64.Build.0 = Debug|Any CPU
+		{4711998A-4CF2-4CF2-A6DF-F40BD250731F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4711998A-4CF2-4CF2-A6DF-F40BD250731F}.Debug|x86.Build.0 = Debug|Any CPU
+		{4711998A-4CF2-4CF2-A6DF-F40BD250731F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4711998A-4CF2-4CF2-A6DF-F40BD250731F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4711998A-4CF2-4CF2-A6DF-F40BD250731F}.Release|x64.ActiveCfg = Release|Any CPU
+		{4711998A-4CF2-4CF2-A6DF-F40BD250731F}.Release|x64.Build.0 = Release|Any CPU
+		{4711998A-4CF2-4CF2-A6DF-F40BD250731F}.Release|x86.ActiveCfg = Release|Any CPU
+		{4711998A-4CF2-4CF2-A6DF-F40BD250731F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

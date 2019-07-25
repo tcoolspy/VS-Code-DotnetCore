@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.gitignore_global" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_dotnetPartTwo.341188988.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="dotnetPartTwo.Api" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="BaseApiController.cs" t="Include" />
+          <e p="CourseApiController.cs" t="Include" />
+          <e p="StudentApiController.cs" t="Include" />
+          <e p="ValuesController.cs" t="Include" />
+        </e>
+        <e p="Data" t="Include">
+          <e p="GenericRepository.cs" t="Include" />
+          <e p="ModelBuilderExtensions.cs" t="Include" />
+          <e p="SchoolContext.cs" t="Include" />
+        </e>
+        <e p="dotnetPartTwo.Api.csproj" t="IncludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="DirectoryHelpers.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20190724190256_InitialCreate.cs" t="Include" />
+          <e p="20190724190256_InitialCreate.Designer.cs" t="Include" />
+          <e p="20190724191532_UpdatingCourse.cs" t="Include" />
+          <e p="20190724191532_UpdatingCourse.Designer.cs" t="Include" />
+          <e p="20190724191824_SeedingData.cs" t="Include" />
+          <e p="20190724191824_SeedingData.Designer.cs" t="Include" />
+          <e p="20190724192121_SeedingData2.cs" t="Include" />
+          <e p="20190724192121_SeedingData2.Designer.cs" t="Include" />
+          <e p="SchoolContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Dtos" t="Include">
+            <e p="CourseDto.cs" t="Include" />
+            <e p="RequestDtos" t="Include">
+              <e p="CourseInputDto.cs" t="Include" />
+              <e p="CourseUpdateDto.cs" t="Include" />
+              <e p="StudentInputDto.cs" t="Include" />
+              <e p="StudentUpdateDto.cs" t="Include" />
+            </e>
+            <e p="StudentCourseDto.cs" t="Include" />
+            <e p="StudentDto.cs" t="Include" />
+          </e>
+          <e p="ModelFactory.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="dotnetPartTwo.Api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="School.db" t="Include" />
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="dotnetPartTwo.Business" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Contracts" t="Include">
+          <e p="IStudentService.cs" t="Include" />
+        </e>
+        <e p="dotnetPartTwo.Business.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="dotnetPartTwo.Business.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Services" t="Include">
+          <e p="GenericBusinessService.cs" t="Include" />
+          <e p="StudentService.cs" t="Include" />
+        </e>
+      </e>
+      <e p="dotnetPartTwo.Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Contracts" t="Include">
+          <e p="IGenericBusinessService.cs" t="Include" />
+          <e p="IGenericRepository.cs" t="Include" />
+        </e>
+        <e p="dotnetPartTwo.Core.csproj" t="IncludeRecursive" />
+        <e p="Framework" t="Include">
+          <e p="CrudResponse.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Course.cs" t="Include" />
+          <e p="Student.cs" t="Include" />
+          <e p="StudentCourse.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="dotnetPartTwo.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="dotnetPartTwo.Data" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="dotnetPartTwo.Data.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="dotnetPartTwo.Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="dotnetPartTwo.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

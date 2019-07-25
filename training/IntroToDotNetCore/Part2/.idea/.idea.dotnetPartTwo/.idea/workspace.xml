@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83dc2f24-836c-4fae-9430-81ef6e4fe24a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/dotnetPartTwo.Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/dotnetPartTwo.Api/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotnetPartTwo.Api/dotnetPartTwo.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/dotnetPartTwo.Api/dotnetPartTwo.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotnetPartTwo.Core/Models/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/dotnetPartTwo.Core/Models/Student.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotnetPartTwo.sln" beforeDir="false" afterPath="$PROJECT_DIR$/dotnetPartTwo.sln" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Api/Controllers/CourseApiController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="744">
+              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+              <folding>
+                <marker date="1564070655984" expanded="false" signature="6:218" ph="..." />
+                <marker date="1564070655984" expanded="true" signature="259:5895" ph="{...}" />
+                <marker date="1564070655984" expanded="true" signature="322:5893" ph="{...}" />
+                <marker date="1564070655984" expanded="true" signature="579:704" ph="{...}" />
+                <marker date="1564070655984" expanded="true" signature="802:1119" ph="{...}" />
+                <marker date="1564070655984" expanded="true" signature="888:1078" ph="{...}" />
+                <marker date="1564070655984" expanded="true" signature="1206:1388" ph="{...}" />
+                <marker date="1564070655984" expanded="true" signature="1495:2975" ph="{...}" />
+                <marker date="1564070655984" expanded="true" signature="1611:2934" ph="{...}" />
+                <marker date="1564070655984" expanded="true" signature="1818:2910" ph="{...}" />
+                <marker date="1564070655984" expanded="true" signature="3100:3700" ph="{...}" />
+                <marker date="1564070655984" expanded="true" signature="3162:3465" ph="{...}" />
+                <marker date="1564070655984" expanded="true" signature="3831:5175" ph="{...}" />
+                <marker date="1564070655984" expanded="true" signature="3933:5129" ph="{...}" />
+                <marker date="1564070655984" expanded="true" signature="4061:4136" ph="{...}" />
+                <marker date="1564070655984" expanded="true" signature="4721:4852" ph="{...}" />
+                <marker date="1564070655984" expanded="true" signature="5279:5879" ph="{...}" />
+                <marker date="1564070655984" expanded="true" signature="5365:5844" ph="{...}" />
+                <marker date="1564070655984" expanded="true" signature="5493:5568" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Contracts/IGenericBusinessService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <folding>
+                <marker date="1564001218690" expanded="true" signature="38:186" ph="{...}" />
+                <marker date="1564001218690" expanded="true" signature="110:184" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>co</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Models/Student.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Models/Course.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Contracts/IGenericBusinessService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Models/StudentCourse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Framework/CrudResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dotnetPartTwo.Api/Controllers/CourseApiController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Contracts/IGenericRepository.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dotnetPartTwo.Core/Models/Course.cs" />
+        <option value="$PROJECT_DIR$/dotnetPartTwo.Core/Models/Student.cs" />
+        <option value="$PROJECT_DIR$/dotnetPartTwo.Core/Framework/CrudResponse.cs" />
+        <option value="$PROJECT_DIR$/dotnetPartTwo.Api/Controllers/CourseApiController.cs" />
+        <option value="$PROJECT_DIR$/dotnetPartTwo.Core/Contracts/IGenericRepository.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.dotnetPartTwo/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.dotnetPartTwo/.idea/indexLayout.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1907" />
+    <option name="y" value="-118" />
+    <option name="width" value="1772" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="dotnetPartTwo" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.dotnetPartTwo.Api">
+    <configuration name="dotnetPartTwo.Api" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/dotnetPartTwo.Api/dotnetPartTwo.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="dotnetPartTwo.Api" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dotnetPartTwo.Api: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/dotnetPartTwo.Api/dotnetPartTwo.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83dc2f24-836c-4fae-9430-81ef6e4fe24a" name="Default Changelist" comment="" />
+      <created>1564067638711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564067638711</updated>
+      <workItem from="1564067640134" duration="4154000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4154000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1907" y="-118" width="1772" height="1055" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24971098" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="REST Client" />
+      <window_info anchor="bottom" id="CSS-X-Fire" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Build" weight="0.32946146" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Models/Course.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding>
+            <marker date="1564067741178" expanded="false" signature="6:47" ph="..." />
+            <marker date="1564067741178" expanded="true" signature="84:523" ph="{...}" />
+            <marker date="1564067741178" expanded="true" signature="110:521" ph="{...}" />
+            <marker date="1564067741178" expanded="true" signature="140:216" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Models/Student.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <marker date="1564067766789" expanded="false" signature="6:47" ph="..." />
+            <marker date="1564067766789" expanded="true" signature="84:455" ph="{...}" />
+            <marker date="1564067766789" expanded="true" signature="111:453" ph="{...}" />
+            <marker date="1564067766789" expanded="true" signature="142:211" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Models/StudentCourse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1563993565766" expanded="true" signature="50:424" ph="{...}" />
+            <marker date="1563993565766" expanded="true" signature="83:422" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Framework/CrudResponse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="130" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="130" />
+          <folding>
+            <marker date="1564068099527" expanded="true" signature="38:1050" ph="{...}" />
+            <marker date="1564068099527" expanded="true" signature="45:338" ph="/// Used as the default response type within a generic repository.  Applies to Add, Delete and Update operations. ... " />
+            <marker date="1564068099527" expanded="true" signature="371:1048" ph="{...}" />
+            <marker date="1564068099527" expanded="true" signature="386:497" ph="/// Used to determine whether the CRUD operation succeeded or not. ... " />
+            <marker date="1564068099527" expanded="true" signature="548:683" ph="/// Used to communicate a custom message related to the CRUD operations success or failure ... " />
+            <marker date="1564068099527" expanded="true" signature="736:1004" ph="/// The specific type of object that the operation is performed on. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Contracts/IGenericRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+          <folding>
+            <marker date="1564071702336" expanded="false" signature="6:129" ph="..." />
+            <marker date="1564071702336" expanded="true" signature="169:8416" ph="{...}" />
+            <marker date="1564071702336" expanded="false" signature="176:531" ph="/// A generic interface for implementing basic database operations. ... " />
+            <marker date="1564071702336" expanded="true" signature="596:8414" ph="{...}" />
+            <marker date="1564071702336" expanded="false" signature="611:819" ph="/// Used to add an entity to a datastore. ... " />
+            <marker date="1564071702336" expanded="false" signature="867:1237" ph="/// An asynchronous method used to add an entity to a datastore. ... " />
+            <marker date="1564071702336" expanded="false" signature="1296:1508" ph="/// Used to remove an entity from a datastore. ... " />
+            <marker date="1564071702336" expanded="false" signature="1559:1935" ph="/// An asynchronous method used to remove an entity from a datastore. ... " />
+            <marker date="1564071702336" expanded="false" signature="1997:2208" ph="/// Used to update an entity in a datastore. ... " />
+            <marker date="1564071702336" expanded="false" signature="2259:2633" ph="/// An asynchronous method used to update an entity in a datastore. ... " />
+            <marker date="1564071702336" expanded="false" signature="2695:3074" ph="/// Used to retrieve an entity from a datastore using a primary key of type &lt;typeparam name=&quot;TKey&quot;&gt;&lt;/typeparam&gt; ... " />
+            <marker date="1564071702336" expanded="false" signature="3107:4274" ph="/// Used to retrieve an entity using a predicate expression. ... " />
+            <marker date="1564071702336" expanded="false" signature="4332:5673" ph="/// An asynchronous method used to retrieve an entity using a predicate expression. ... " />
+            <marker date="1564071702336" expanded="false" signature="5778:6374" ph="/// An asynchronous method used to retrieve an entity using a predicate expression.  This method also allows the ... " />
+            <marker date="1564071702336" expanded="false" signature="6497:6770" ph="/// Used to retrieve entities from a datastore ... " />
+            <marker date="1564071702336" expanded="false" signature="6845:7254" ph="/// Used to retrieve entities from a datastore using a predicate expression. ... " />
+            <marker date="1564071702336" expanded="false" signature="7363:7798" ph="/// Used to retrieve entities from a datastore. ... " />
+            <marker date="1564071702336" expanded="false" signature="7939:8123" ph="/// Used to retrieve the number of entities, for a specific type, from a datastore. ... " />
+            <marker date="1564071702336" expanded="false" signature="8157:8364" ph="/// An asynchronous method used to retrieve the number of entities, for a specific type, from a datastore. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Api/Controllers/CourseApiController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <marker date="1564070655984" expanded="false" signature="6:218" ph="..." />
+            <marker date="1564070655984" expanded="true" signature="259:5895" ph="{...}" />
+            <marker date="1564070655984" expanded="true" signature="322:5893" ph="{...}" />
+            <marker date="1564070655984" expanded="true" signature="579:704" ph="{...}" />
+            <marker date="1564070655984" expanded="true" signature="802:1119" ph="{...}" />
+            <marker date="1564070655984" expanded="true" signature="888:1078" ph="{...}" />
+            <marker date="1564070655984" expanded="true" signature="1206:1388" ph="{...}" />
+            <marker date="1564070655984" expanded="true" signature="1495:2975" ph="{...}" />
+            <marker date="1564070655984" expanded="true" signature="1611:2934" ph="{...}" />
+            <marker date="1564070655984" expanded="true" signature="1818:2910" ph="{...}" />
+            <marker date="1564070655984" expanded="true" signature="3100:3700" ph="{...}" />
+            <marker date="1564070655984" expanded="true" signature="3162:3465" ph="{...}" />
+            <marker date="1564070655984" expanded="true" signature="3831:5175" ph="{...}" />
+            <marker date="1564070655984" expanded="true" signature="3933:5129" ph="{...}" />
+            <marker date="1564070655984" expanded="true" signature="4061:4136" ph="{...}" />
+            <marker date="1564070655984" expanded="true" signature="4721:4852" ph="{...}" />
+            <marker date="1564070655984" expanded="true" signature="5279:5879" ph="{...}" />
+            <marker date="1564070655984" expanded="true" signature="5365:5844" ph="{...}" />
+            <marker date="1564070655984" expanded="true" signature="5493:5568" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Contracts/IGenericBusinessService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <marker date="1564001218690" expanded="true" signature="38:186" ph="{...}" />
+            <marker date="1564001218690" expanded="true" signature="110:184" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
