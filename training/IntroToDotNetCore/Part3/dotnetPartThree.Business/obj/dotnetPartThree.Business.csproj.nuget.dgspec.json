@@ -27,6 +27,71 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "projectReferences": {
+              "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Core/dotnetPartThree.Core.csproj": {
+                "projectPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Core/dotnetPartThree.Core.csproj"
+              },
+              "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Data/dotnetPartThree.Data.csproj": {
+                "projectPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Data/dotnetPartThree.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Core/dotnetPartThree.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Core/dotnetPartThree.Core.csproj",
+        "projectName": "dotnetPartThree.Core",
+        "projectPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Core/dotnetPartThree.Core.csproj",
+        "packagesPath": "/Users/rc18285/.nuget/packages/",
+        "outputPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rc18285/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
             "projectReferences": {}
           }
         },
@@ -39,6 +104,76 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Data/dotnetPartThree.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Data/dotnetPartThree.Data.csproj",
+        "projectName": "dotnetPartThree.Data",
+        "projectPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Data/dotnetPartThree.Data.csproj",
+        "packagesPath": "/Users/rc18285/.nuget/packages/",
+        "outputPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Data/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rc18285/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Core/dotnetPartThree.Core.csproj": {
+                "projectPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Core/dotnetPartThree.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
