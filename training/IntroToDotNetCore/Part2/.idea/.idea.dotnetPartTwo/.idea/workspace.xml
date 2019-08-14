@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83dc2f24-836c-4fae-9430-81ef6e4fe24a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dotnetPartTwo.Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/dotnetPartTwo.Api/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnetPartTwo.Api/dotnetPartTwo.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/dotnetPartTwo.Api/dotnetPartTwo.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnetPartTwo.Core/Models/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/dotnetPartTwo.Core/Models/Student.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnetPartTwo.sln" beforeDir="false" afterPath="$PROJECT_DIR$/dotnetPartTwo.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.dotnetPartTwo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotnetPartTwo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotnetPartTwo.Api/Controllers/CourseApiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/dotnetPartTwo.Api/Controllers/CourseApiController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,45 +12,152 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Api/Controllers/CourseApiController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="209">
+              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
               <folding>
-                <marker date="1564070655984" expanded="false" signature="6:218" ph="..." />
-                <marker date="1564070655984" expanded="true" signature="259:5895" ph="{...}" />
-                <marker date="1564070655984" expanded="true" signature="322:5893" ph="{...}" />
-                <marker date="1564070655984" expanded="true" signature="579:704" ph="{...}" />
-                <marker date="1564070655984" expanded="true" signature="802:1119" ph="{...}" />
-                <marker date="1564070655984" expanded="true" signature="888:1078" ph="{...}" />
-                <marker date="1564070655984" expanded="true" signature="1206:1388" ph="{...}" />
-                <marker date="1564070655984" expanded="true" signature="1495:2975" ph="{...}" />
-                <marker date="1564070655984" expanded="true" signature="1611:2934" ph="{...}" />
-                <marker date="1564070655984" expanded="true" signature="1818:2910" ph="{...}" />
-                <marker date="1564070655984" expanded="true" signature="3100:3700" ph="{...}" />
-                <marker date="1564070655984" expanded="true" signature="3162:3465" ph="{...}" />
-                <marker date="1564070655984" expanded="true" signature="3831:5175" ph="{...}" />
-                <marker date="1564070655984" expanded="true" signature="3933:5129" ph="{...}" />
-                <marker date="1564070655984" expanded="true" signature="4061:4136" ph="{...}" />
-                <marker date="1564070655984" expanded="true" signature="4721:4852" ph="{...}" />
-                <marker date="1564070655984" expanded="true" signature="5279:5879" ph="{...}" />
-                <marker date="1564070655984" expanded="true" signature="5365:5844" ph="{...}" />
-                <marker date="1564070655984" expanded="true" signature="5493:5568" ph="{...}" />
+                <marker date="1564083978537" expanded="false" signature="6:218" ph="..." />
+                <marker date="1564083978537" expanded="true" signature="259:5911" ph="{...}" />
+                <marker date="1564083978537" expanded="true" signature="322:5909" ph="{...}" />
+                <marker date="1564083978537" expanded="true" signature="579:704" ph="{...}" />
+                <marker date="1564083978537" expanded="true" signature="802:1135" ph="{...}" />
+                <marker date="1564083978537" expanded="true" signature="888:1094" ph="{...}" />
+                <marker date="1564083978537" expanded="true" signature="1222:1404" ph="{...}" />
+                <marker date="1564083978537" expanded="true" signature="1511:2991" ph="{...}" />
+                <marker date="1564083978537" expanded="true" signature="1627:2950" ph="{...}" />
+                <marker date="1564083978537" expanded="true" signature="1834:2926" ph="{...}" />
+                <marker date="1564083978537" expanded="true" signature="3116:3716" ph="{...}" />
+                <marker date="1564083978537" expanded="true" signature="3178:3481" ph="{...}" />
+                <marker date="1564083978537" expanded="true" signature="3847:5191" ph="{...}" />
+                <marker date="1564083978537" expanded="true" signature="3949:5145" ph="{...}" />
+                <marker date="1564083978537" expanded="true" signature="4077:4152" ph="{...}" />
+                <marker date="1564083978537" expanded="true" signature="4737:4868" ph="{...}" />
+                <marker date="1564083978537" expanded="true" signature="5295:5895" ph="{...}" />
+                <marker date="1564083978537" expanded="true" signature="5381:5860" ph="{...}" />
+                <marker date="1564083978537" expanded="true" signature="5509:5584" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Contracts/IGenericRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding>
+                <marker date="1564071702336" expanded="false" signature="6:129" ph="..." />
+                <marker date="1564071702336" expanded="true" signature="169:8416" ph="{...}" />
+                <marker date="1564071702336" expanded="false" signature="176:531" ph="/// A generic interface for implementing basic database operations. ... " />
+                <marker date="1564071702336" expanded="true" signature="596:8414" ph="{...}" />
+                <marker date="1564071702336" expanded="false" signature="611:819" ph="/// Used to add an entity to a datastore. ... " />
+                <marker date="1564071702336" expanded="false" signature="867:1237" ph="/// An asynchronous method used to add an entity to a datastore. ... " />
+                <marker date="1564071702336" expanded="false" signature="1296:1508" ph="/// Used to remove an entity from a datastore. ... " />
+                <marker date="1564071702336" expanded="false" signature="1559:1935" ph="/// An asynchronous method used to remove an entity from a datastore. ... " />
+                <marker date="1564071702336" expanded="false" signature="1997:2208" ph="/// Used to update an entity in a datastore. ... " />
+                <marker date="1564071702336" expanded="false" signature="2259:2633" ph="/// An asynchronous method used to update an entity in a datastore. ... " />
+                <marker date="1564071702336" expanded="false" signature="2695:3074" ph="/// Used to retrieve an entity from a datastore using a primary key of type &lt;typeparam name=&quot;TKey&quot;&gt;&lt;/typeparam&gt; ... " />
+                <marker date="1564071702336" expanded="false" signature="3107:4274" ph="/// Used to retrieve an entity using a predicate expression. ... " />
+                <marker date="1564071702336" expanded="false" signature="4332:5673" ph="/// An asynchronous method used to retrieve an entity using a predicate expression. ... " />
+                <marker date="1564071702336" expanded="false" signature="5778:6374" ph="/// An asynchronous method used to retrieve an entity using a predicate expression.  This method also allows the ... " />
+                <marker date="1564071702336" expanded="false" signature="6497:6770" ph="/// Used to retrieve entities from a datastore ... " />
+                <marker date="1564071702336" expanded="false" signature="6845:7254" ph="/// Used to retrieve entities from a datastore using a predicate expression. ... " />
+                <marker date="1564071702336" expanded="false" signature="7363:7798" ph="/// Used to retrieve entities from a datastore. ... " />
+                <marker date="1564071702336" expanded="false" signature="7939:8123" ph="/// Used to retrieve the number of entities, for a specific type, from a datastore. ... " />
+                <marker date="1564071702336" expanded="false" signature="8157:8364" ph="/// An asynchronous method used to retrieve the number of entities, for a specific type, from a datastore. ... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Contracts/IGenericBusinessService.cs">
+        <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Business/Services/GenericBusinessService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="341">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding>
-                <marker date="1564001218690" expanded="true" signature="38:186" ph="{...}" />
-                <marker date="1564001218690" expanded="true" signature="110:184" ph="{...}" />
+                <marker date="1564001036866" expanded="true" signature="78:422" ph="{...}" />
+                <marker date="1564001036866" expanded="true" signature="180:420" ph="{...}" />
+                <marker date="1564001036866" expanded="true" signature="341:406" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Api/Data/GenericRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+              <folding>
+                <marker date="1563999061965" expanded="false" signature="6:202" ph="..." />
+                <marker date="1563999061965" expanded="true" signature="236:7581" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="328:7579" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="409:527" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="454:517" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="580:678" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="724:1402" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="751:1130" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="923:1082" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="1163:1392" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="1247:1344" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="1465:2159" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="1491:1887" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="1685:1823" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="1920:2149" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="2004:2101" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="2208:2831" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="2234:2632" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="2412:2584" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="2665:2820" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="2897:3607" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="2923:3332" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="3112:3284" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="3365:3596" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="3450:3548" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="3656:4347" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="3682:4149" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="3929:4101" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="4182:4337" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="4413:5116" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="4439:4917" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="4697:4869" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="4950:5105" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="5155:5222" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="5278:5349" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="5458:5778" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="5907:6190" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="6037:6127" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="6271:6484" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="6591:6934" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="7072:7341" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="7373:7443" ph="{...}" />
+                <marker date="1563999061965" expanded="true" signature="7492:7573" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Api/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="717">
+              <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+              <folding>
+                <marker date="1564067141123" expanded="false" signature="6:699" ph="..." />
+                <marker date="1564067141123" expanded="true" signature="728:3139" ph="{...}" />
+                <marker date="1564067141123" expanded="true" signature="755:3137" ph="{...}" />
+                <marker date="1564067141123" expanded="true" signature="814:877" ph="{...}" />
+                <marker date="1564067141123" expanded="true" signature="1100:2047" ph="{...}" />
+                <marker date="1564067141123" expanded="true" signature="1797:1933" ph="{...}" />
+                <marker date="1564067141123" expanded="true" signature="2235:3123" ph="{...}" />
+                <marker date="1564067141123" expanded="true" signature="2282:2359" ph="{...}" />
+                <marker date="1564067141123" expanded="true" signature="2376:2579" ph="{...}" />
+                <marker date="1564067141123" expanded="true" signature="2648:2802" ph="{...}" />
+                <marker date="1564067141123" expanded="true" signature="2893:3033" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -69,6 +174,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/dotnetPartTwo.Api/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dotnetPartTwo.Business/Services/GenericBusinessService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Models/Student.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Models/Course.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Contracts/IGenericBusinessService.cs" root0="FORCE_HIGHLIGHTING" />
@@ -76,6 +183,7 @@
     <setting file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Framework/CrudResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/dotnetPartTwo.Api/Controllers/CourseApiController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Contracts/IGenericRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dotnetPartTwo.Api/Data/GenericRepository.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -97,8 +205,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1907" />
-    <option name="y" value="-118" />
+    <option name="x" value="-3737" />
+    <option name="y" value="-110" />
     <option name="width" value="1772" />
     <option name="height" value="1055" />
   </component>
@@ -109,6 +217,7 @@
     </navigator>
     <panes>
       <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -116,12 +225,22 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="dotnetPartTwo" type="24d0babc:SolutionExplorerModelNode" />
             </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="dotnetPartTwo" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="dotnetPartTwo.Api" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="dotnetPartTwo" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="dotnetPartTwo.Api" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,12 +305,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564067638711</updated>
-      <workItem from="1564067640134" duration="4154000" />
+      <workItem from="1564067640134" duration="4658000" />
+      <workItem from="1564594817986" duration="99000" />
+      <workItem from="1565194250360" duration="442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4154000" />
+    <option name="totallyTimeSpent" value="5199000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -203,41 +324,42 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1907" y="-118" width="1772" height="1055" extended-state="0" />
+    <frame x="-3737" y="-110" width="1772" height="1055" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24971098" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25549132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="REST Client" />
-      <window_info anchor="bottom" id="CSS-X-Fire" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info anchor="bottom" id="Build" weight="0.32946146" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32946146" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915523" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="REST Client" order="13" />
+      <window_info anchor="bottom" id="CSS-X-Fire" order="14" />
+      <window_info anchor="bottom" id="Terminal" order="15" />
+      <window_info anchor="bottom" id="Event Log" order="16" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="17" weight="0.32946146" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -246,6 +368,71 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/dotnetPartTwo.Api/Controllers/CourseApiController.cs</url>
+          <line>17</line>
+          <properties documentPath="$PROJECT_DIR$/dotnetPartTwo.Api/Controllers/CourseApiController.cs" initialLine="17">
+            <startOffsets>
+              <option value="602" />
+            </startOffsets>
+            <endOffsets>
+              <option value="694" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/dotnetPartTwo.Api/Controllers/CourseApiController.cs</url>
+          <line>38</line>
+          <properties documentPath="$PROJECT_DIR$/dotnetPartTwo.Api/Controllers/CourseApiController.cs" initialLine="38">
+            <startOffsets>
+              <option value="1245" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1287" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/dotnetPartTwo.Api/Data/GenericRepository.cs</url>
+          <line>16</line>
+          <properties documentPath="$PROJECT_DIR$/dotnetPartTwo.Api/Data/GenericRepository.cs" initialLine="16">
+            <startOffsets>
+              <option value="432" />
+            </startOffsets>
+            <endOffsets>
+              <option value="453" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/dotnetPartTwo.Api/Data/GenericRepository.cs</url>
+          <line>22</line>
+          <properties documentPath="$PROJECT_DIR$/dotnetPartTwo.Api/Data/GenericRepository.cs" initialLine="22">
+            <startOffsets>
+              <option value="589" />
+            </startOffsets>
+            <endOffsets>
+              <option value="590" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/dotnetPartTwo.Business/Services/GenericBusinessService.cs</url>
+          <line>10</line>
+          <properties documentPath="$PROJECT_DIR$/dotnetPartTwo.Business/Services/GenericBusinessService.cs" initialLine="10">
+            <startOffsets>
+              <option value="364" />
+            </startOffsets>
+            <endOffsets>
+              <option value="396" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -302,10 +489,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Contracts/IGenericBusinessService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <marker date="1564001218690" expanded="true" signature="38:186" ph="{...}" />
+            <marker date="1564001218690" expanded="true" signature="110:184" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Api/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+          <folding>
+            <marker date="1564067141123" expanded="false" signature="6:699" ph="..." />
+            <marker date="1564067141123" expanded="true" signature="728:3139" ph="{...}" />
+            <marker date="1564067141123" expanded="true" signature="755:3137" ph="{...}" />
+            <marker date="1564067141123" expanded="true" signature="814:877" ph="{...}" />
+            <marker date="1564067141123" expanded="true" signature="1100:2047" ph="{...}" />
+            <marker date="1564067141123" expanded="true" signature="1797:1933" ph="{...}" />
+            <marker date="1564067141123" expanded="true" signature="2235:3123" ph="{...}" />
+            <marker date="1564067141123" expanded="true" signature="2282:2359" ph="{...}" />
+            <marker date="1564067141123" expanded="true" signature="2376:2579" ph="{...}" />
+            <marker date="1564067141123" expanded="true" signature="2648:2802" ph="{...}" />
+            <marker date="1564067141123" expanded="true" signature="2893:3033" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Api/Data/GenericRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <marker date="1563999061965" expanded="false" signature="6:202" ph="..." />
+            <marker date="1563999061965" expanded="true" signature="236:7581" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="328:7579" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="409:527" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="454:517" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="580:678" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="724:1402" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="751:1130" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="923:1082" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="1163:1392" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="1247:1344" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="1465:2159" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="1491:1887" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="1685:1823" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="1920:2149" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="2004:2101" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="2208:2831" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="2234:2632" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="2412:2584" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="2665:2820" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="2897:3607" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="2923:3332" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="3112:3284" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="3365:3596" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="3450:3548" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="3656:4347" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="3682:4149" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="3929:4101" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="4182:4337" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="4413:5116" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="4439:4917" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="4697:4869" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="4950:5105" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="5155:5222" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="5278:5349" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="5458:5778" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="5907:6190" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="6037:6127" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="6271:6484" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="6591:6934" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="7072:7341" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="7373:7443" ph="{...}" />
+            <marker date="1563999061965" expanded="true" signature="7492:7573" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Api/Controllers/CourseApiController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding>
+            <marker date="1564083978537" expanded="false" signature="6:218" ph="..." />
+            <marker date="1564083978537" expanded="true" signature="259:5911" ph="{...}" />
+            <marker date="1564083978537" expanded="true" signature="322:5909" ph="{...}" />
+            <marker date="1564083978537" expanded="true" signature="579:704" ph="{...}" />
+            <marker date="1564083978537" expanded="true" signature="802:1135" ph="{...}" />
+            <marker date="1564083978537" expanded="true" signature="888:1094" ph="{...}" />
+            <marker date="1564083978537" expanded="true" signature="1222:1404" ph="{...}" />
+            <marker date="1564083978537" expanded="true" signature="1511:2991" ph="{...}" />
+            <marker date="1564083978537" expanded="true" signature="1627:2950" ph="{...}" />
+            <marker date="1564083978537" expanded="true" signature="1834:2926" ph="{...}" />
+            <marker date="1564083978537" expanded="true" signature="3116:3716" ph="{...}" />
+            <marker date="1564083978537" expanded="true" signature="3178:3481" ph="{...}" />
+            <marker date="1564083978537" expanded="true" signature="3847:5191" ph="{...}" />
+            <marker date="1564083978537" expanded="true" signature="3949:5145" ph="{...}" />
+            <marker date="1564083978537" expanded="true" signature="4077:4152" ph="{...}" />
+            <marker date="1564083978537" expanded="true" signature="4737:4868" ph="{...}" />
+            <marker date="1564083978537" expanded="true" signature="5295:5895" ph="{...}" />
+            <marker date="1564083978537" expanded="true" signature="5381:5860" ph="{...}" />
+            <marker date="1564083978537" expanded="true" signature="5509:5584" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Contracts/IGenericRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        <state relative-caret-position="124">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
           <folding>
             <marker date="1564071702336" expanded="false" signature="6:129" ph="..." />
             <marker date="1564071702336" expanded="true" signature="169:8416" ph="{...}" />
@@ -330,41 +628,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Api/Controllers/CourseApiController.cs">
+    <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Business/Services/GenericBusinessService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="341">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
-            <marker date="1564070655984" expanded="false" signature="6:218" ph="..." />
-            <marker date="1564070655984" expanded="true" signature="259:5895" ph="{...}" />
-            <marker date="1564070655984" expanded="true" signature="322:5893" ph="{...}" />
-            <marker date="1564070655984" expanded="true" signature="579:704" ph="{...}" />
-            <marker date="1564070655984" expanded="true" signature="802:1119" ph="{...}" />
-            <marker date="1564070655984" expanded="true" signature="888:1078" ph="{...}" />
-            <marker date="1564070655984" expanded="true" signature="1206:1388" ph="{...}" />
-            <marker date="1564070655984" expanded="true" signature="1495:2975" ph="{...}" />
-            <marker date="1564070655984" expanded="true" signature="1611:2934" ph="{...}" />
-            <marker date="1564070655984" expanded="true" signature="1818:2910" ph="{...}" />
-            <marker date="1564070655984" expanded="true" signature="3100:3700" ph="{...}" />
-            <marker date="1564070655984" expanded="true" signature="3162:3465" ph="{...}" />
-            <marker date="1564070655984" expanded="true" signature="3831:5175" ph="{...}" />
-            <marker date="1564070655984" expanded="true" signature="3933:5129" ph="{...}" />
-            <marker date="1564070655984" expanded="true" signature="4061:4136" ph="{...}" />
-            <marker date="1564070655984" expanded="true" signature="4721:4852" ph="{...}" />
-            <marker date="1564070655984" expanded="true" signature="5279:5879" ph="{...}" />
-            <marker date="1564070655984" expanded="true" signature="5365:5844" ph="{...}" />
-            <marker date="1564070655984" expanded="true" signature="5493:5568" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dotnetPartTwo.Core/Contracts/IGenericBusinessService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding>
-            <marker date="1564001218690" expanded="true" signature="38:186" ph="{...}" />
-            <marker date="1564001218690" expanded="true" signature="110:184" ph="{...}" />
+            <marker date="1564001036866" expanded="true" signature="78:422" ph="{...}" />
+            <marker date="1564001036866" expanded="true" signature="180:420" ph="{...}" />
+            <marker date="1564001036866" expanded="true" signature="341:406" ph="{...}" />
           </folding>
         </state>
       </provider>

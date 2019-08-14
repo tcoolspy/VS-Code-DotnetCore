@@ -12,6 +12,9 @@ project.lock.json
 *.cache
 *.dll
 *.pdb
+*.idea
+settings.json
+workspace.xml
 
 # Build results
 [Dd]ebug/
