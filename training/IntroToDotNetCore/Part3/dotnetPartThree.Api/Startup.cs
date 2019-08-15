@@ -61,6 +61,7 @@ namespace dotnetPartThree.Api
 
             // specific services
             services.AddScoped<ICustomerBusinessService, CustomerBusinessService>();
+            services.AddScoped<IEmployeeService, EmployeeService>();
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
@@ -92,12 +93,19 @@ namespace dotnetPartThree.Api
                 app.UseHsts();
             }
 
+            var options = new DefaultFilesOptions();
+            options.DefaultFileNames.Clear();
+            options.DefaultFileNames.Add("swagger/index.html");
+            app.UseDefaultFiles(options);
+            app.UseStaticFiles();
+
             app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
             app.UseSwagger();
 
             app.UseSwaggerUI(c => {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Northwind API");
+                c.RoutePrefix = string.Empty;
             });
 
             app.UseHttpsRedirection();
