@@ -1,0 +1,11 @@
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/pubs.console/bin/Debug/netcoreapp2.2/pubs.console.deps.json
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/pubs.console/bin/Debug/netcoreapp2.2/pubs.console.runtimeconfig.json
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/pubs.console/bin/Debug/netcoreapp2.2/pubs.console.runtimeconfig.dev.json
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/pubs.console/bin/Debug/netcoreapp2.2/pubs.console.dll
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/pubs.console/bin/Debug/netcoreapp2.2/pubs.console.pdb
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/pubs.console/obj/Debug/netcoreapp2.2/pubs.console.csprojAssemblyReference.cache
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/pubs.console/obj/Debug/netcoreapp2.2/pubs.console.csproj.CoreCompileInputs.cache
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/pubs.console/obj/Debug/netcoreapp2.2/pubs.console.AssemblyInfoInputs.cache
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/pubs.console/obj/Debug/netcoreapp2.2/pubs.console.AssemblyInfo.cs
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/pubs.console/obj/Debug/netcoreapp2.2/pubs.console.dll
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/pubs.console/obj/Debug/netcoreapp2.2/pubs.console.pdb

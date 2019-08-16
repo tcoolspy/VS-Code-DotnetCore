@@ -1,0 +1,11 @@
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/northwind.console/bin/Debug/netcoreapp2.2/northwind.console.deps.json
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/northwind.console/bin/Debug/netcoreapp2.2/northwind.console.runtimeconfig.json
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/northwind.console/bin/Debug/netcoreapp2.2/northwind.console.runtimeconfig.dev.json
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/northwind.console/bin/Debug/netcoreapp2.2/northwind.console.dll
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/northwind.console/bin/Debug/netcoreapp2.2/northwind.console.pdb
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/northwind.console/obj/Debug/netcoreapp2.2/northwind.console.csprojAssemblyReference.cache
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/northwind.console/obj/Debug/netcoreapp2.2/northwind.console.csproj.CoreCompileInputs.cache
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/northwind.console/obj/Debug/netcoreapp2.2/northwind.console.AssemblyInfoInputs.cache
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/northwind.console/obj/Debug/netcoreapp2.2/northwind.console.AssemblyInfo.cs
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/northwind.console/obj/Debug/netcoreapp2.2/northwind.console.dll
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/northwind.console/obj/Debug/netcoreapp2.2/northwind.console.pdb

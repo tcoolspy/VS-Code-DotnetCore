@@ -1,0 +1,11 @@
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/adventureworks.console/bin/Debug/netcoreapp2.2/adventureworks.console.deps.json
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/adventureworks.console/bin/Debug/netcoreapp2.2/adventureworks.console.runtimeconfig.json
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/adventureworks.console/bin/Debug/netcoreapp2.2/adventureworks.console.runtimeconfig.dev.json
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/adventureworks.console/bin/Debug/netcoreapp2.2/adventureworks.console.dll
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/adventureworks.console/bin/Debug/netcoreapp2.2/adventureworks.console.pdb
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/adventureworks.console/obj/Debug/netcoreapp2.2/adventureworks.console.csprojAssemblyReference.cache
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/adventureworks.console/obj/Debug/netcoreapp2.2/adventureworks.console.csproj.CoreCompileInputs.cache
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/adventureworks.console/obj/Debug/netcoreapp2.2/adventureworks.console.AssemblyInfoInputs.cache
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/adventureworks.console/obj/Debug/netcoreapp2.2/adventureworks.console.AssemblyInfo.cs
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/adventureworks.console/obj/Debug/netcoreapp2.2/adventureworks.console.dll
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/adventureworks.console/obj/Debug/netcoreapp2.2/adventureworks.console.pdb
