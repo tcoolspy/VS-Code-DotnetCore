@@ -1,0 +1,11 @@
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/worldwide.console/bin/Debug/netcoreapp2.2/worldwide.console.deps.json
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/worldwide.console/bin/Debug/netcoreapp2.2/worldwide.console.runtimeconfig.json
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/worldwide.console/bin/Debug/netcoreapp2.2/worldwide.console.runtimeconfig.dev.json
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/worldwide.console/bin/Debug/netcoreapp2.2/worldwide.console.dll
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/worldwide.console/bin/Debug/netcoreapp2.2/worldwide.console.pdb
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/worldwide.console/obj/Debug/netcoreapp2.2/worldwide.console.csprojAssemblyReference.cache
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/worldwide.console/obj/Debug/netcoreapp2.2/worldwide.console.csproj.CoreCompileInputs.cache
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/worldwide.console/obj/Debug/netcoreapp2.2/worldwide.console.AssemblyInfoInputs.cache
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/worldwide.console/obj/Debug/netcoreapp2.2/worldwide.console.AssemblyInfo.cs
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/worldwide.console/obj/Debug/netcoreapp2.2/worldwide.console.dll
+/Users/rc18285/source/testRepos/dotnet/EFCoreScaffoldExample/worldwide.console/obj/Debug/netcoreapp2.2/worldwide.console.pdb

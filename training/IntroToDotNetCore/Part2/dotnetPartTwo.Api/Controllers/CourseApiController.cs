@@ -24,7 +24,7 @@ namespace dotnetPartTwo.Api.Controllers
         {
             Guid courseId;
             if (Guid.TryParse(id, out courseId))
-            {
+            {                
                 var response = _courseRepository.Get(courseId);
                 var course = TheModelFactory.Create(response);
                 return Ok(course);
