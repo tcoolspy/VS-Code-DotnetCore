@@ -3,7 +3,7 @@ using dotnetPartThree.Core.Models;
 
 namespace dotnetPartThree.Business.Contracts
 {
-    public interface ICustomerBusinessService : IGenericBusinessService<Customer, string>
+    public interface ICustomerService : IGenericBusinessService<Customer, string>
     {
          Customer GetCustomerWithOrders(string customerId);
     }
