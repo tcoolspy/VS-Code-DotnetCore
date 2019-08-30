@@ -6,9 +6,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace dotnetPartThree.Business.Services
 {
-    public class CustomerBusinessService : GenericBusinessService<Customer, string>, ICustomerBusinessService
+    public class CustomerService : GenericBusinessService<Customer, string>, ICustomerService
     {
-        public CustomerBusinessService(IGenericRepository<Customer, string> dataRepository) : base(dataRepository)
+        public CustomerService(IGenericRepository<Customer, string> dataRepository) : base(dataRepository)
         {
         }
         
