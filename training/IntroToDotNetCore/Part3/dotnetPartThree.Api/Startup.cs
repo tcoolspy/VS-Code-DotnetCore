@@ -60,7 +60,7 @@ namespace dotnetPartThree.Api
             services.AddScoped<IGenericBusinessService<Territory, int>, GenericBusinessService<Territory, int>>();
 
             // specific services
-            services.AddScoped<ICustomerBusinessService, CustomerBusinessService>();
+            services.AddScoped<ICustomerService, CustomerService>();
             services.AddScoped<IEmployeeService, EmployeeService>();
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();

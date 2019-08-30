@@ -11,7 +11,7 @@ namespace dotnetPartThree.Core.Framework.Extensions
 {
     public static class QueryableExtensions
     {
-        private static readonly MethodInfo ContainsMethod = typeof(string).GetMethod("Contains", new[] { typeof(string)});
+       private static readonly MethodInfo ContainsMethod = typeof(string).GetMethod("Contains", new[] { typeof(string)});
         private static readonly MethodInfo ToLowerMethod = typeof(string).GetMethod("ToLower", new Type[] { });
         private static readonly MethodInfo ToStringMethod = typeof(string).GetMethod("ToString", new[] { typeof(string)});
 
@@ -21,11 +21,11 @@ namespace dotnetPartThree.Core.Framework.Extensions
             ParameterExpression param = Expression.Parameter(type, "x");
             Type lambdaType = type.GetProperty(attributeName).PropertyType;
 
-            MethodCallExpression expression = Expression.Call(typeof(Queryable), 
-                                                GetOrderByMethodName(orderBy),
-                                                new[] { type, lambdaType},
-                                                query.Expression,
-                                                Expression.Lambda(Expression.Property(param, type.GetProperty(attributeName), param)));
+            MethodCallExpression expression = Expression.Call(typeof(Queryable),
+                GetOrderByMethodName(orderBy),
+                new Type[] {type, lambdaType},
+                query.Expression,
+                Expression.Lambda(Expression.Property(param, type.GetProperty(attributeName)), param));
             return query.Provider.CreateQuery<T>(expression);
         }
 
@@ -33,13 +33,14 @@ namespace dotnetPartThree.Core.Framework.Extensions
         {
             Type type = typeof(T);
             ParameterExpression param = Expression.Parameter(type, "x");
-            Type lambdaType = type.GetProperty(attribute.Name).PropertyType;
+            var body = attribute.Body as MemberExpression;
+            Type lambdaType = type.GetProperty(body.Member.Name).PropertyType;
 
             MethodCallExpression expression = Expression.Call(typeof(Queryable), 
                                                 GetOrderByMethodName(orderBy),
-                                                new[] { type, lambdaType},
+                                                new Type[] { type, lambdaType},
                                                 query.Expression,
-                                                Expression.Lambda(Expression.Property(param, type.GetProperty(attribute.Name), param)));
+                                                Expression.Lambda(Expression.Property(param, type.GetProperty(body.Member.Name)), param));
             return query.Provider.CreateQuery<T>(expression);            
         }
 
@@ -60,6 +61,23 @@ namespace dotnetPartThree.Core.Framework.Extensions
             }
             return new List<T>().AsQueryable();
         }
+        
+        public static Expression<Func<T, bool>> SearchByFor<T>(this IQueryable<T> query, string searchTerm, string attributeName)
+        {
+            if (!string.IsNullOrEmpty(attributeName))
+            {
+                ParameterExpression param = Expression.Parameter(typeof(T), "x");
+                MemberExpression memberExpression = Expression.MakeMemberAccess(param, typeof(T).GetProperty(attributeName));
+                MethodInfo methodInfo = typeof(string).GetMethod("Contains", new Type[] { typeof(string)});
+
+                var toLowerExpression = Expression.Call(memberExpression, ToLowerMethod);
+                var constant = Expression.Constant(searchTerm.ToLower());
+                var call = Expression.Call(toLowerExpression, methodInfo, constant);
+                Expression<Func<T, bool>> lambda = Expression.Lambda<Func<T, bool>>(call, param);
+                return lambda;
+            }
+            return null;
+        }         
 
         public static IQueryable<T> SearchBy<T>(this IQueryable<T> query, string searchTerm, Expression<Func<T, object>> attribute)
         {
@@ -77,7 +95,7 @@ namespace dotnetPartThree.Core.Framework.Extensions
                 return result;
             }
             return new List<T>().AsQueryable();
-        } 
+        }
 
         public static IQueryable<T> SearchBy<T>(this IQueryable<T> query, int searchTerm, string attribute)       
         {
@@ -96,8 +114,7 @@ namespace dotnetPartThree.Core.Framework.Extensions
             return new List<T>().AsQueryable();
         }
 
-
-       public static IQueryable<T> SearchBy<T>(this IQueryable<T> query, string searchTerm, string[] attributes)
+        public static IQueryable<T> SearchBy<T>(this IQueryable<T> query, string searchTerm, string[] attributes, LambdaLogicalOp logicalOp)
         {
             if (attributes.Any())
             {
@@ -121,10 +138,16 @@ namespace dotnetPartThree.Core.Framework.Extensions
                         var call = Expression.Call(toLowerExpression, methodInfo, constant);
                         //var call = Expression.Call(toLowerCall, methodInfo, toLowerCall);
                         Expression<Func<T, bool>> lambda = Expression.Lambda<Func<T, bool>>(call, param);
-
-                        // TODO: this needs to be refactored so that 'Or' or 'And' expressions can be used.
-                        predicate = predicate.Or(lambda);
-
+                        
+                        if (logicalOp == LambdaLogicalOp.And)
+                        {
+                            predicate = predicate.And(lambda);
+                        }
+                        else
+                        {
+                            predicate = predicate.Or(lambda);
+                        }
+                        
                         //query = query.AsExpandable().Where(lambda);
                     }
                 }
@@ -134,7 +157,7 @@ namespace dotnetPartThree.Core.Framework.Extensions
             return query;
         }
         
-        public static IQueryable<T> SearchBy<T>(this IQueryable<T> query, Dictionary<string, StringValues> searchTerms)
+        public static IQueryable<T> SearchBy<T>(this IQueryable<T> query, Dictionary<string, StringValues> searchTerms, LambdaLogicalOp logicalOp)
         {
             if (searchTerms.Any())
             {
@@ -154,8 +177,14 @@ namespace dotnetPartThree.Core.Framework.Extensions
                     var call = Expression.Call(toLowerExpression, methodInfo, constant);
                     Expression<Func<T, bool>> lambda = Expression.Lambda<Func<T, bool>>(call, param);
 
-                    // TODO: this needs to be refactored so that 'Or' or 'And' expressions can be used.
-                    predicate = predicate.And(lambda);
+                    if (logicalOp == LambdaLogicalOp.And)
+                    {
+                        predicate = predicate.And(lambda);
+                    }
+                    else
+                    {
+                        predicate = predicate.Or(lambda);
+                    }
                 }
 
                 query = query.AsExpandable().Where(predicate);
@@ -163,9 +192,35 @@ namespace dotnetPartThree.Core.Framework.Extensions
             }
 
             return query;
-        }    
+        }
 
+        public static IQueryable<T> SearchByMultiple<T>(this IQueryable<T> query, string searchTerm)
+        {
+            Type type = typeof(T);
+            var predicate = PredicateBuilder.New<T>(true);
+            if (type.IsClass)
+            {
+                
+                var props = type.GetProperties().ToList();
+                foreach (var prop in props)
+                {
+                    var propType = prop.PropertyType;
+                    if (propType.Name == "String")
+                    {
+                        // perform search on this property
+                        var queryResponse = query.SearchByFor(searchTerm, prop.Name);
+                        if (queryResponse != null)
+                        {
+                            predicate = predicate.Or(queryResponse);
+                        }
+                    }
+                }
+            }
 
+            query = query.AsExpandable().Where(predicate);
+            return query;
+        }
+        
         #region Private Methods 
 
         private static string GetOrderByMethodName(OrderBy? orderBy)
@@ -182,6 +237,6 @@ namespace dotnetPartThree.Core.Framework.Extensions
             }
         }
 
-        #endregion // Private Methods
+        #endregion // Private Methods     
     }
 }
