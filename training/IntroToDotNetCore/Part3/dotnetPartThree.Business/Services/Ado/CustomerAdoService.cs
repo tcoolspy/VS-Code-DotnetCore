@@ -17,14 +17,12 @@ namespace dotnetPartThree.Business.Services.Ado
         {
             // implement correct logic.
             return DataRepository.GetAll().AsEnumerable();
-            // throw new System.NotImplementedException();
         }
 
         public int InsertCustomerDetails(Customer customer)
         {
             // implement correct logic.
             return DataRepository.Insert(customer);
-            // throw new System.NotImplementedException();
         }
     }
 }

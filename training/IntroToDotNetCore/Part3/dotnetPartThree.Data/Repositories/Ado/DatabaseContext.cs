@@ -1,5 +1,6 @@
 using System.Data;
 using System.Data.SqlClient;
+using System.Runtime.CompilerServices;
 using dotnetPartThree.Core.Framework.Contracts.Ado;
 
 namespace dotnetPartThree.Data.Repositories.Ado
@@ -26,6 +27,24 @@ namespace dotnetPartThree.Data.Repositories.Ado
                 if (_connection.State != ConnectionState.Open)
                 {
                     _connection.Open();
+                }
+
+                return _connection;
+            }
+        }
+
+        public SqlConnection AsyncConnection
+        {
+            get
+            {
+                if (_connection == null)
+                {
+                    _connection = new SqlConnection(_connectionString);
+                }
+
+                if (_connection.State != ConnectionState.Open)
+                {
+                    _connection.OpenAsync();
                 }
 
                 return _connection;

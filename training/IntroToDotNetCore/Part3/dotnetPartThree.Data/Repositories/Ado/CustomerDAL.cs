@@ -18,7 +18,7 @@ namespace dotnetPartThree.Data.Repositories.Ado
             _sqlTransaction = _unitOfWork.BeginTransaction();
         }
 
-        protected override void InsertCommandParameters(Customer entity, SqlCommand cmd)
+        protected override void InsertCommandParameters(Customer entity, SqlCommand cmd, string cmdText = null)
         {
             cmd.CommandText = "spInsert"; // NOTE: change to appropriate stored proc
             cmd.CommandType = CommandType.StoredProcedure; // NOTE: change if needed.
@@ -28,7 +28,7 @@ namespace dotnetPartThree.Data.Repositories.Ado
             // etc.
         }
 
-        protected override void UpdateCommandParameters(Customer entity, SqlCommand cmd)
+        protected override void UpdateCommandParameters(Customer entity, SqlCommand cmd, string cmdText = null)
         {
             cmd.CommandText = "spUpdate"; // NOTE: change to appropriate stored proc
             cmd.CommandType = CommandType.StoredProcedure; // NOTE: change if needed.
@@ -38,9 +38,9 @@ namespace dotnetPartThree.Data.Repositories.Ado
             // etc.
         }
 
-        protected override void DeleteCommandParameters(Customer entity, SqlCommand cmd)
+        protected override void DeleteCommandParameters(Customer entity, SqlCommand cmd, string cmdText = null)
         {
-            base.DeleteCommandParameters(entity, cmd);
+            base.DeleteCommandParameters(entity, cmd, cmdText);
         }
 
         protected override Customer Map(SqlDataReader reader)

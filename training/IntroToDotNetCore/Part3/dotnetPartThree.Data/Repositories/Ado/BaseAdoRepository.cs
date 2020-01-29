@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Threading.Tasks;
 using dotnetPartThree.Core.Framework.Contracts.Ado;
 
 namespace dotnetPartThree.Data.Repositories.Ado
@@ -36,6 +37,21 @@ namespace dotnetPartThree.Data.Repositories.Ado
             return i;
         }
 
+        public Task<int> InsertAsync(T entity)
+        {
+            int i = 0;
+            try
+            {
+                // TODO: complete async code
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+
+            return Task.FromResult(i);
+        }
+
         public int Update(T entity)
         {
             int i = 0;
@@ -53,6 +69,13 @@ namespace dotnetPartThree.Data.Repositories.Ado
             }
             
             return i;
+        }
+
+        public Task<int> UpdateAsync(T entity)
+        {
+            int i = 0;
+            // TODO: complete async code
+            return Task.FromResult(i);
         }
 
         public int Delete(T entity)
@@ -74,6 +97,13 @@ namespace dotnetPartThree.Data.Repositories.Ado
             return i;
         }
 
+        public Task<int> DeleteAsync(T entity)
+        {
+            int i = 0;
+            // TODO: complete async code
+            return Task.FromResult(i);
+        }
+
         public IEnumerable<T> GetAll()
         {
             using (var cmd = _connection.CreateCommand())
@@ -85,9 +115,9 @@ namespace dotnetPartThree.Data.Repositories.Ado
             }
         }
 
-        protected virtual void InsertCommandParameters(T entity, SqlCommand cmd) {}
-        protected virtual void UpdateCommandParameters(T entity, SqlCommand cmd) {}
-        protected virtual void DeleteCommandParameters(T entity, SqlCommand cmd) {}
+        protected virtual void InsertCommandParameters(T entity, SqlCommand cmd, string cmdText = null) {}
+        protected virtual void UpdateCommandParameters(T entity, SqlCommand cmd, string cmdText = null) {}
+        protected virtual void DeleteCommandParameters(T entity, SqlCommand cmd, string cmdText = null) {}
 
         protected virtual T Map(SqlDataReader reader)
         {
