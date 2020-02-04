@@ -54,8 +54,8 @@ namespace dotnetPartTwo.Api.Models
                 CourseId = studentCourse.CourseId,
                 CourseStartDate = studentCourse.StartDate,
                 Grade = studentCourse.Grade,
-                StudentId = studentCourse.StudentId,
-                Url = _linkGenerator.GetPathByAction(_context.HttpContext, controller: "StudentCourseApi", action: "Get", values: new { id = studentCourse.Id})
+                StudentId = studentCourse.StudentId//,
+                //Url = _linkGenerator.GetPathByAction(_context.HttpContext, controller: "StudentCourseApi", action: "Get", values: new { id = studentCourse.Id})
             };
         }        
     }
