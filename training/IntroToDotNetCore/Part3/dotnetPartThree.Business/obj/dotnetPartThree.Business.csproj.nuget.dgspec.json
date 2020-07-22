@@ -1,38 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Business/dotnetPartThree.Business.csproj": {}
+    "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Business\\dotnetPartThree.Business.csproj": {}
   },
   "projects": {
-    "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Business/dotnetPartThree.Business.csproj": {
+    "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Business\\dotnetPartThree.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Business/dotnetPartThree.Business.csproj",
+        "projectUniqueName": "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Business\\dotnetPartThree.Business.csproj",
         "projectName": "dotnetPartThree.Business",
-        "projectPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Business/dotnetPartThree.Business.csproj",
-        "packagesPath": "/Users/rc18285/.nuget/packages/",
-        "outputPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Business/obj/",
+        "projectPath": "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Business\\dotnetPartThree.Business.csproj",
+        "packagesPath": "C:\\Users\\tspencer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Business\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/rc18285/.config/NuGet/NuGet.Config"
+          "C:\\Users\\tspencer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://jackhenry.pkgs.visualstudio.com/_packaging/IS-Nuget/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/JHA-12/_packaging/IS.Nuget.JHA12/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Core/dotnetPartThree.Core.csproj": {
-                "projectPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Core/dotnetPartThree.Core.csproj"
+              "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Core\\dotnetPartThree.Core.csproj": {
+                "projectPath": "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Core\\dotnetPartThree.Core.csproj"
               },
-              "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Data/dotnetPartThree.Data.csproj": {
-                "projectPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Data/dotnetPartThree.Data.csproj"
+              "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Data\\dotnetPartThree.Data.csproj": {
+                "projectPath": "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Data\\dotnetPartThree.Data.csproj"
               }
             }
           }
@@ -71,30 +72,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Core/dotnetPartThree.Core.csproj": {
+    "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Core\\dotnetPartThree.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Core/dotnetPartThree.Core.csproj",
+        "projectUniqueName": "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Core\\dotnetPartThree.Core.csproj",
         "projectName": "dotnetPartThree.Core",
-        "projectPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Core/dotnetPartThree.Core.csproj",
-        "packagesPath": "/Users/rc18285/.nuget/packages/",
-        "outputPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Core/obj/",
+        "projectPath": "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Core\\dotnetPartThree.Core.csproj",
+        "packagesPath": "C:\\Users\\tspencer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/rc18285/.config/NuGet/NuGet.Config"
+          "C:\\Users\\tspencer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://jackhenry.pkgs.visualstudio.com/_packaging/IS-Nuget/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/JHA-12/_packaging/IS.Nuget.JHA12/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
@@ -139,36 +141,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Data/dotnetPartThree.Data.csproj": {
+    "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Data\\dotnetPartThree.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Data/dotnetPartThree.Data.csproj",
+        "projectUniqueName": "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Data\\dotnetPartThree.Data.csproj",
         "projectName": "dotnetPartThree.Data",
-        "projectPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Data/dotnetPartThree.Data.csproj",
-        "packagesPath": "/Users/rc18285/.nuget/packages/",
-        "outputPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Data/obj/",
+        "projectPath": "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Data\\dotnetPartThree.Data.csproj",
+        "packagesPath": "C:\\Users\\tspencer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/rc18285/.config/NuGet/NuGet.Config"
+          "C:\\Users\\tspencer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://jackhenry.pkgs.visualstudio.com/_packaging/IS-Nuget/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/JHA-12/_packaging/IS.Nuget.JHA12/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Core/dotnetPartThree.Core.csproj": {
-                "projectPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Core/dotnetPartThree.Core.csproj"
+              "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Core\\dotnetPartThree.Core.csproj": {
+                "projectPath": "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Core\\dotnetPartThree.Core.csproj"
               }
             }
           }
@@ -207,7 +210,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

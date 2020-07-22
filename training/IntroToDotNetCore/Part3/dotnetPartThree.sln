@@ -1,15 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetPartThree.Core", "dotnetPartThree.Core\dotnetPartThree.Core.csproj", "{F05E8DEC-4ACB-4E7C-BF41-E76C02D977AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnetPartThree.Core", "dotnetPartThree.Core\dotnetPartThree.Core.csproj", "{F05E8DEC-4ACB-4E7C-BF41-E76C02D977AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetPartThree.Data", "dotnetPartThree.Data\dotnetPartThree.Data.csproj", "{6DD43A8E-61BE-407E-8AAE-E5B4497330FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnetPartThree.Data", "dotnetPartThree.Data\dotnetPartThree.Data.csproj", "{6DD43A8E-61BE-407E-8AAE-E5B4497330FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetPartThree.Business", "dotnetPartThree.Business\dotnetPartThree.Business.csproj", "{C4CF0777-08CF-43A8-B8BE-4BE2C8CEDC1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnetPartThree.Business", "dotnetPartThree.Business\dotnetPartThree.Business.csproj", "{C4CF0777-08CF-43A8-B8BE-4BE2C8CEDC1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetPartThree.Api", "dotnetPartThree.Api\dotnetPartThree.Api.csproj", "{363EF3FD-EB3F-445E-881A-A729C90CDD19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnetPartThree.Api", "dotnetPartThree.Api\dotnetPartThree.Api.csproj", "{363EF3FD-EB3F-445E-881A-A729C90CDD19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9BB01C95-9D28-43CC-B40B-BAFAF2A6ECA8}"
+	ProjectSection(SolutionItems) = preProject
+		Northwind.mdf = Northwind.mdf
+		TrainingDb.mdf = TrainingDb.mdf
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F05E8DEC-4ACB-4E7C-BF41-E76C02D977AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -72,5 +75,11 @@ Global
 		{363EF3FD-EB3F-445E-881A-A729C90CDD19}.Release|x64.Build.0 = Release|Any CPU
 		{363EF3FD-EB3F-445E-881A-A729C90CDD19}.Release|x86.ActiveCfg = Release|Any CPU
 		{363EF3FD-EB3F-445E-881A-A729C90CDD19}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2E44CB8-4F8B-4D93-AFA8-78AB88AF4BBC}
 	EndGlobalSection
 EndGlobal

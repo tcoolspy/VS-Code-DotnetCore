@@ -1390,7 +1390,7 @@
       ]
     },
     "System.Buffers/4.4.0": {
-      "sha512": "Ii2bedd4HVzddupdU35n3ygohUPlNn7MDimBOYcwWNce2NizQ1fCSaQJY1Tzv80aMqOGpVcU4wZr/Xe50xcTwg==",
+      "sha512": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
       "type": "package",
       "path": "system.buffers/4.4.0",
       "files": [
@@ -3215,29 +3215,29 @@
     ]
   },
   "packageFolders": {
-    "/Users/rc18285/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\tspencer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Core/dotnetPartThree.Core.csproj",
+      "projectUniqueName": "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Core\\dotnetPartThree.Core.csproj",
       "projectName": "dotnetPartThree.Core",
-      "projectPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Core/dotnetPartThree.Core.csproj",
-      "packagesPath": "/Users/rc18285/.nuget/packages/",
-      "outputPath": "/Users/rc18285/source/tutorials/training/VS-Code-DotnetCore/training/IntroToDotNetCore/Part3/dotnetPartThree.Core/obj/",
+      "projectPath": "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Core\\dotnetPartThree.Core.csproj",
+      "packagesPath": "C:\\Users\\tspencer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tspencer\\source\\training\\VS-Code-DotnetCore\\training\\IntroToDotNetCore\\Part3\\dotnetPartThree.Core\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/rc18285/.config/NuGet/NuGet.Config"
+        "C:\\Users\\tspencer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://jackhenry.pkgs.visualstudio.com/_packaging/IS-Nuget/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/JHA-12/_packaging/IS.Nuget.JHA12/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
@@ -3282,7 +3282,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
